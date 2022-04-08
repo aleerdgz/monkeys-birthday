@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Ccompatible" content="ie-edge">
+<title>Feliz cumpleaños Mi amor</title>
+<link rel="stylesheet" href="file:///home/ale/Documentos/cursoweb/Bootstraps5/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="file:///home/ale/Documentos/cursoweb/M/HBD.css">
+</head>
+<body class="a">
+  <div class="container -dos">
+    <div class="row">
+      <div class="col-12">
+        <p class="fw-bold h1">DALE PLAYYY..., NO LO PENSES DOS VECES!!</p>
+        <hr>
+      </div>
+    </div>
+    <div class="row media">
+      <div class="col-6">
+        <video src="file:///home/ale/Documentos/cursoweb/M/BDNENE.mp4" id="video" width="950" controls autoplay poster="posterimage.jpg"></video>
+      </div>
+    </div>
+    </div>
+    <div class="contenedor-boton">
+      <div class="row">
+        <div class="col contenedor-btn">
+          <a href="file:///home/ale/Documentos/cursoweb/M/HBD4.html">SIGUIENTE</a>
+        </div>
+      </div>
+    </div>
+    <script src="file:///home/ale/Documentos/cursoweb/Bootstraps5/js/bootstrap.bundle.min.js" charset="utf-8">
+      var video= document.getElementsById('video')
+          btnPlay= document.getElementsById('play')
+          btnPause= document.getElementsById('pause'),
+          volumen=document.getElementById('volumen');
+
+          btnPlay.addEventListener('click', function(){
+            video.play();
+            document.body.style.background= '#000';
+          });
+          btnPause.addEventListener('click' function(){
+            video.pause();
+          });
+          volumen.addEventListener('change' function volumen() {
+            video.volumen= volumen.value;
+          });
+    </script>
+  </body>
+  </html>
